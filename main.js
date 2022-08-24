@@ -10,8 +10,12 @@ const port = process.env.PORT || 3000
 app.db = router.db
 app.use(cors());
 
+const rules = auth.rewriter({
+    contacts: 660,
+})
 
 // You must apply the auth middleware before the router
+app.use(rules)
 app.use(auth)
 app.use(router)
 app.listen(port)

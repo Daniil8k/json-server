@@ -2,7 +2,7 @@
   "users": [
     {
       "email": "test@mail.com",
-      "password": "$2a$10$3IyRepftKOk1qd7lm8HmZectjpwPIVwPQlIL/D1yhjuVg1wZT49jq",
+      "password": "$2a$10$/h4GmLDDo/Nw8DZ5Qu9h/On6FTuBveSevY2bWZsrtfGOu7YfJJ02S",
       "id": 1
     }
   ],
@@ -146,6 +146,34 @@
       "email": "jvanj@boston.com",
       "phone": "+48 692 230 9322",
       "userId": 1
+    },
+    {
+      "name": "1",
+      "email": "2",
+      "id": 21,
+      "phone": "",
+      "userId": 2
+    },
+    {
+      "name": "39i",
+      "email": "mail.",
+      "id": 23,
+      "phone": "+1 231 231 2999",
+      "userId": 2
+    },
+    {
+      "name": "22341",
+      "email": "",
+      "phone": "",
+      "userId": 2,
+      "id": 25
+    },
+    {
+      "name": "ewrwer",
+      "email": "wekqw",
+      "phone": "",
+      "userId": 2,
+      "id": 26
     }
   ]
 }

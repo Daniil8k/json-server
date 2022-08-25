@@ -11,7 +11,7 @@ app.db = router.db
 app.use(cors());
 
 const rules = auth.rewriter({
-    contacts: 660,
+    contacts: 600,
 })
 
 // You must apply the auth middleware before the router
